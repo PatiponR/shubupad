@@ -1,0 +1,331 @@
+# ===========================================
+# NODE.JS & NPM
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================================
+# TYPESCRIPT & BUILD
+# ===========================================
+dist/
+build/
+*.tsbuildinfo
+.tsbuildinfo
+
+# ===========================================
+# ENVIRONMENT & CONFIG
+# ===========================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+.env.*.local
+
+# Config files with secrets
+config/secrets.*
+config/local.*
+
+# ===========================================
+# LOGS
+# ===========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+
+# Runtime logs
+combined.log
+error.log
+app.log
+access.log
+
+# ===========================================
+# DATABASE
+# ===========================================
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Database dumps
+*.sql
+dumps/
+backups/
+
+# Migration backup files
+*.backup
+
+# ===========================================
+# UPLOADS & MEDIA
+# ===========================================
+uploads/
+temp/
+tmp/
+public/uploads/
+storage/
+media/
+
+# Image processing temp files
+*.tmp
+thumbnails/
+processed/
+
+# ===========================================
+# TESTING
+# ===========================================
+coverage/
+.nyc_output
+test-results/
+junit.xml
+
+# Jest
+.jest/
+jest-results/
+
+# Test databases
+test.db
+*.test.sqlite
+
+# ===========================================
+# CACHING
+# ===========================================
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+
+# Redis dump
+dump.rdb
+
+# ===========================================
+# SECURITY & CERTIFICATES
+# ===========================================
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# JWT keys
+private.key
+public.key
+
+# API keys and secrets
+secrets/
+.secrets/
+
+# ===========================================
+# DEVELOPMENT TOOLS
+# ===========================================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===========================================
+# DOCKER
+# ===========================================
+# Docker volumes
+docker-compose.override.yml
+.dockerignore
+
+# Docker secrets
+docker/secrets/
+
+# ===========================================
+# CLOUD & DEPLOYMENT
+# ===========================================
+# AWS
+.aws/
+aws-exports.js
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes secrets
+k8s/secrets/
+*.secret.yaml
+
+# Deployment scripts with secrets
+deploy.*.sh
+
+# ===========================================
+# MONITORING & ANALYTICS
+# ===========================================
+# Monitoring data
+monitoring/data/
+grafana/data/
+prometheus/data/
+
+# New Relic
+newrelic_agent.log
+
+# ===========================================
+# PACKAGE MANAGERS
+# ===========================================
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# PNPM
+.pnpm-store/
+
+# ===========================================
+# TEMPORARY FILES
+# ===========================================
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================================
+# MISC
+# ===========================================
+# Local development
+.local/
+local/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Documentation build
+docs/build/
+docs/_build/
+
+# Swagger generated files
+swagger-codegen/
+
+# Email templates compiled
+templates/compiled/
+
+# CSV exports
+exports/
+*.csv
+reports/
+
+# Excel files
+*.xlsx
+*.xls
+
+# PDF files
+*.pdf
+
+# ===========================================
+# SHUBUPAD SPECIFIC
+# ===========================================
+# Recipe images (keep in cloud storage)
+recipe-images/
+user-uploads/
+
+# Generated thumbnails
+thumbnails/
+processed-images/
+
+# Meal plan exports
+meal-plans/exports/
+
+# User data exports
+user-data/
+
+# Analytics data
+analytics/raw-data/
+
+# Search indexes (rebuilt automatically)
+search-indexes/
+
+# Cache files
+cache/
+.cache-loader/
+
+# Session store files (use Redis instead)
+sessions/
+
+# Email queue files (use Redis/Bull instead)
+email-queue/
+
+# Background job data
+jobs/data/
+
+# Recommendation model files
+ml-models/
+recommendation-cache/
+
+# ===========================================
+# SECURITY NOTES
+# ===========================================
+# NEVER COMMIT:
+# - .env files with real secrets
+# - Database credentials
+# - API keys
+# - JWT secrets
+# - Payment processor keys
+# - SSL certificates
+# - User uploaded content
+# - Production logs with sensitive data

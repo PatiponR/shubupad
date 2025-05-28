@@ -1,0 +1,24 @@
+{
+  "watch": ["src", "server.ts"],
+  "ext": "ts,json",
+  "ignore": [
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts",
+    "tests/**/*",
+    "dist/**/*",
+    "node_modules/**/*",
+    "logs/**/*",
+    "uploads/**/*"
+  ],
+  "exec": "ts-node -r tsconfig-paths/register server.ts",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": 1000,
+  "verbose": true,
+  "restartable": "rs",
+  "colours": true,
+  "legacyWatch": false,
+  "pollingInterval": 100,
+  "runOnChangeOnly": false
+}
